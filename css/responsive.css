@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    transition: .3s ease;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Jost",sans-serif;
+    scroll-behavior: smooth;
+}
+@media only screen and (max-width:1105px){
+    #phone{
+        padding: 0 1.5rem;
+    }
+    #navlist{
+        margin: 0 .5rem;
+    }
+    #navlist li{
+        padding: 0 .7rem;
+        font-size: 1rem;
+    }
+    #logo{
+        font-size: 2rem;
+    }
+    .btn{
+        width: 14vw;
+    }
+    #links-section{
+        grid-template-columns: auto auto;
+    }
+    #footer{
+        padding: 1rem 0;
+    }
+    #test{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:900px) {
+    #phone{
+        display: none;
+    }
+    #navlist{
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        background-color: white;
+        display: none;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        transition: .3s ease;
+    }
+
+    #navlist li{
+        display: block;
+    }
+
+#logo{
+    font-size: 2.2rem;
+}
+#hamburger{
+    display: block;
+}
+#subtitle{
+    font-size: 1.4rem;
+}
+#title{
+    font-size: 3.2rem;
+    margin: 1vw;
+}
+.container{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+ .right{
+    width: 100%;
+    text-align: center;
+}
+.left{
+    width: 100%;
+    margin: 2rem auto;
+}
+#box2{
+    grid-template-columns: auto;
+}
+#service{
+    flex-direction: column;
+    width: 80%;
+}
+#price{
+    flex-direction: column;
+    width: 80%;
+}
+.price-box{
+    grid-template-columns: auto;
+    width: 80%;
+}
+.boxx{
+    margin: 2rem 0;
+}.banner p{
+    padding: 0 2rem;
+}#white-title{
+    font-size: 2rem;
+    padding: 0 2rem;;
+}
+#white-detail{
+    padding: 0 2rem;
+}
+.quotes, .contact{
+    width: 8rem;
+}
+.box i{
+    font-size: 3.3rem;
+}
+.box{
+    font-size: 1.2rem;
+}
+.person-container{
+    grid-template-columns: auto;
+}
+.person{
+    width: 100%;
+    margin: 0 auto;
+    height: 25rem;
+}
+#staff{
+    flex-direction: column;
+}
+#banner{
+    padding: 2rem 0;
+}
+.container-title{
+    font-size: 2rem
+}
+}
+@media screen and (max-width:750px) {
+
+    #testmonial-box{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .testi-box{
+        margin: 2rem 0;
+    }
+    #email-input input{
+        width: 50%;
+    }
+    #email-input button{
+        width: 6rem;
+    }
+}
+@media screen and (max-width:500px) {
+    #links-section{
+        grid-template-columns: auto;
+    }
+    #testimonial-box{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}
